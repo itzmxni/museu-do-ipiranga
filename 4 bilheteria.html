@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins:400,700,900' rel='stylesheet'>
+    <title>BILHETERIA | MUSEU DO IPIRANGA</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="navbar4">
+        <img src="ICONS - MUSEU/logo museu verde.png">
+            <ul>
+                <li><a href="1 museu.html">MUSEU</a></li>
+                <li><a href="2 eventos.html">EVENTOS</a></li>
+                <li><a href="3 acervo.html">ACERVO</a></li>
+                <li><a href="4 bilheteria.html">BILHETERIA</a></li>
+                <li><a href="5 loja.html">LOJA</a></li>
+              <li><a href="6 contato.html">CONTATO</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="bilheteria-title">
+        <p>COMPRE SEU INGRESSO</p>
+        <h1>OU AGENDE SUA VISITA</h1>
+    </div>
+    
+    <div class="input">
+        <h6>ABERTO DE TERÇA À DOMINGO DAS 10H ÀS 17H</h6>
+        <p>BILHETERIA PRESENCIAL - 9H ÀS 16H</p>
+        
+        <form action="pedido-bilheteria">
+
+            <div class="bilheteria">
+                <div class="nome">
+                    <label for="nome">NOME COMPLETO</label>
+                    <input type="text" name="NOME">
+                </div>
+
+                <div class="email">
+                    <label for="email">E-MAIL (OBRIGATÓRIO)</label>
+                    <input type="email" name="EMAIL">
+                </div>
+
+                <div class="ingressos">
+                    <label for="quantidade de ingressos">QUANTIDADE DE INGRESSOS</label>
+                    <select id="ingressos" name="SELECIONE A QUANTIDADE">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+
+                <div class="mês">
+                  <input type="radio" name="option" id="option1">
+                  <label for="option1">JANEIRO</label>
+                
+                <div class="dias-mês">
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan1">
+                        <label for="jan1"><b>02</b> TER</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan2">
+                        <label for="jan2"><b>03</b> QUA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan3">
+                        <label for="jan3"><b>04</b> QUI</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan4">
+                        <label for="jan4"><b>05</b> SEX</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan5">
+                        <label for="jan5"><b>06</b> SÁB</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan6">
+                        <label for="jan6"><b>07</b> DOM</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan7">
+                        <label for="jan7">09 - TERÇA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan8">
+                        <label for="jan8">10 - QUARTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan9">
+                        <label for="jan9">11 - QUINTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan10">
+                        <label for="jan10">12 - SEXTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan11">
+                        <label for="jan11">13 - SÁBADO</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan12">
+                        <label for="jan12">14 - DOMINGO</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan13">
+                        <label for="jan13">16 - TERÇA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan14">
+                        <label for="jan14">17 - QUARTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan15">
+                        <label for="jan15">18 - QUINTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan16">
+                        <label for="jan16">19 - SEXTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan17">
+                        <label for="jan17">20 - SÁBADO</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan18">
+                        <label for="jan18">21 - DOMINGO</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan19">
+                        <label for="jan19">23 - TERÇA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan20">
+                        <label for="jan20">24 - QUARTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan21">
+                        <label for="jan21">25 - QUINTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan22">
+                        <label for="jan22">26 - SEXTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan23">
+                        <label for="jan23">27 - SÁBADO</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="jan24">
+                        <label for="jan24">28 - DOMINGO</label>
+                    </div>
+                </div>
+                </div>
+
+                <div class="mês">
+                  <input type="radio" name="option" id="option2">
+                  <label for="option2">FEVEREIRO</label>
+
+                  <div class="dias-mês">
+                    <div class="dia" id="diafev">
+                        <input type="radio" name="fev" id="fev1">
+                        <label for="fev1">01 - QUINTA</label>
+                    </div>
+                    <div class="dia" id="diafev">
+                        <input type="radio" name="fev" id="fev2">
+                        <label for="fev2">02 - SEXTA</label>
+                    </div>
+                    <div class="dia" id="diafev">
+                        <input type="radio" name="fev" id="fev3">
+                        <label for="fev3">03 - SÁBADO</label>
+                    </div>
+                    <div class="dia" id="diafev">
+                        <input type="radio" name="fev" id="fev4">
+                        <label for="fev4">04 - DOMINGO</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="fev" id="fev5">
+                        <label for="fev5">06 - TERÇA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="fev" id="fev6">
+                        <label for="fev6">07 - QUARTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="fev" id="fev7">
+                        <label for="fev7">08 - QUINTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev8">
+                        <label for="fev8">09 - SEXTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev9">
+                        <label for="fev9">10 - SÁBADO</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev10">
+                        <label for="fev10">11 - DOMINGO</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev11">
+                        <label for="fev11">13 - TERÇA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev12">
+                        <label for="fev12">14 - QUARTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev13">
+                        <label for="fev13">15 - QUINTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev14">
+                        <label for="fev14">16 - SEXTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev15">
+                        <label for="fev15">17 - SÁBADO</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev16">
+                        <label for="fev16">18 - DOMINGO</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev17">
+                        <label for="fev17">20 - TERÇA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev18">
+                        <label for="fev18">21 - QUARTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev19">
+                        <label for="fev19">22 - QUINTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev20">
+                        <label for="fev20">23 - SEXTA</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev21">
+                        <label for="fev21">24 - SÁBADO</label>
+                    </div>
+                    <div class="dia" id="diajan">
+                        <input type="radio" name="jan" id="fev22">
+                        <label for="fev22">25 - DOMINGO</label>
+                    </div>
+                    <div class="dia" id="diafev">
+                        <input type="radio" name="fev" id="fev23">
+                        <label for="fev23">27 - TERÇA</label>
+                    </div>
+                    <div class="dia" id="diafev">
+                        <input type="radio" name="fev" id="fev24">
+                        <label for="fev24">28 - QUARTA</label>
+                    </div>
+                    <div class="dia" id="diafev">
+                        <input type="radio" name="fev" id="fev25">
+                        <label for="fev25">29 - QUINTA</label>
+                    </div>
+                </div>
+            </div>
+
+                <div class="mês">
+                  <input type="radio" name="option" id="option3">
+                  <label for="option3">MARÇO</label>
+                  <div class="content" id="content3">Content for Option 3</div>
+                </div>
+              </div>
+
+
+
+        </form>
+    </div>
+
+    <footer>
+        Desenvolvido por MEMO
+    </footer>
+</body>
+
+</html>
