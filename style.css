@@ -1,0 +1,217 @@
+html {
+    background-color: #efe9e6;
+    font-family: Poppins;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+}
+
+footer {
+    text-align: center;
+}
+
+.hero {
+    width: auto;
+    margin: auto;
+}
+
+.navbar1,.navbar2,.navbar3,.navbar4,.navbar5,.navbar6 {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    flex: 1;
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+.navbar1 ul li a {
+    text-decoration: none;
+    color: #871811;
+    padding: 0 10px;
+    position: relative;
+}
+
+.navbar2 ul li a {
+    text-decoration: none;
+    color: #CE9312;
+    padding: 0 10px;
+    position: relative;
+}
+
+.navbar3 ul li a {
+    text-decoration: none;
+    color: #3B3717;
+    padding: 0 10px;
+    position: relative;
+}
+
+.navbar4 ul li a {
+    text-decoration: none;
+    color: #122B1F;
+    padding: 0 10px;
+    position: relative;
+}
+
+.navbar5 ul li a {
+    text-decoration: none;
+    color: #002B3D;
+    padding: 0 10px;
+    position: relative;
+}
+
+.navbar6 ul li a {
+    text-decoration: none;
+    color: #710A0D;
+    padding: 0 10px;
+    position: relative;
+}
+
+/*----------------------------------------------------------------------------------- MUSEU ---------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------------------------- EVENTOS ---------------------------------------------------------------*/
+
+
+.eventos-title p {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.ld-title p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.title--ld p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*----------------------------------------------------------------------------------- ACERVO ---------------------------------------------------------------*/
+
+
+.acervo-title p {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/*---------------------------------------------------------------------------------- BILHETERIA ---------------------------------------------------------------*/
+
+
+.bilheteria-title p {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.bilheteria-title h1 {
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 10px;
+}
+
+
+.input h6 {
+    font-size: 22px;
+    font-style: bold;
+}
+
+.input p {
+    font-size: 20px;
+}
+
+.mês {
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+}
+
+.dias-mês {
+    display: none;
+    row-gap: 10px;
+  }
+  
+.mês, .dias-mês {
+    gap: 10px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked + label + .dias-mês {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+label {
+    color: #122B1F;
+    background-color: #e2d2ca;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 25px;
+    align-items: center;
+    text-align: center;
+}
+
+label::before{
+    height: 50px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+input[type="radio"]:checked + label{
+    background-color: #122B1F;
+    color: #efe9e6;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+
+/*------------------------------------------------------------------------------------ LOJA ---------------------------------------------------------------*/
+
+
+.loja-title p{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.grid {
+    display: grid;
+    gap: 75px;
+}
+
+.produto {
+    width: 250px;
+    height: 260px;
+    background-color: #002B3D;
+    border-radius: 15px;
+}
+
+/*-------------------------------------------------------------------------------- CONTATO ---------------------------------------------------------------*/
+
+
+.contato-title p {
+    font-size: 50px;
+    font-weight: 700;
+}
